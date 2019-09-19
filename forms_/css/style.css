@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2A4072;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 374px;
+    width: 27%;
+    background-color: #1D2B4B;
+    margin-left: 37%;
+    margin-top: 15%;
+}
+
+h2 {
+
+    text-align: center;
+    background-color: #17233B;
+    height: 50px;
+
+}
+
+.header span {
+    margin-top: 10px;
+    display: inline-block;
+    color: #FDFBF8;
+}
+
+
+.forms input{
+    margin-left: 11%;
+    width: 80%;
+    height: 38px;
+    margin-top: 2%;
+    line-height: 40px; 
+    background-color: #12192C;
+    border: none;
+    border-radius: 3px;
+    color: #FDFBF8;
+}
+
+.forms button {
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 2%;
+    height: 35px;
+    background-color: #00CD68;
+    border:none;
+    color: white;
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(75, 150, 68);
+}
+
+.forms input {
+    padding-left: 8%;
+}
+
+.check {
+    margin-left: 11%;
+    margin-top: 5px;
+    margin-top: 6px;
+}
+.chck a {
+    margin-left: 25%;
+    color: #C4B7B6;
+    text-decoration: none;
+}
+span {
+    color: #C4B7B6;
+}
+
+
+
+.facebook a {
+    text-decoration: none;
+    color: #FDFBF8;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.facebook {
+    margin-top: 10px;
+    background-color: #39599C;
+    width: 30%;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 20%;
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+.twitter a{
+    text-decoration: none;
+    color: #FDFBF8;
+    line-height: 30px;
+    margin-left: 9%;
+    
+}
+
+.twitter {
+    display: inline-block;
+    background-color: #39599C;
+    width: 30%;
+    font-size: 0.7em;
+    margin-left: 9%;
+    border-radius: 3px;
+    background-color: #2DA8D2;
+}
+
+.social-networks {
+    margin-top: 27px;
+    margin-left: -6%;
+}
+
+
+
+.footer a{
+    text-decoration: none;
+    color: #BEBABA;
+    margin-left: 7%;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #17233B;
+    height: 58px;
+}
+
+.footer a {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer button {
+    width: 120%;
+    margin-left: 135%;
+    height: 35px;
+    background-color: #00CD68;
+    border:none;
+    color: white;
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(75, 150, 68);
+}
+
+
+.user-login {
+    position: relative;
+}
+
+.user-login i{
+    position: absolute;
+    color: #00CD68;
+    right: 83%;
+    top: 17px;
+    display: inline-block;
+}
+
+.user-pass {
+
+    position: relative;
+
+}
+
+.user-pass i{
+    position: absolute;
+    color: #00CD68;
+    right: 83%;
+    top: 17px;
+    display: inline-block;
+}
